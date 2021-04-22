@@ -1,0 +1,153 @@
+
+.ramka{
+  background: #00838f;
+  opacity: 0.7;
+  border: 10px ridge #006064;
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+  color: #fff;
+}
+
+.image{
+  position: fixed;
+  left: 10px;
+  top:0;
+}
+
+.header{
+  background: #006064;
+  border: 10px solid #006064;
+  color: white;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 40px;
+}
+
+.nazvan{
+  color:white;
+  font-size: 20px;
+  margin-left: 65px;
+  margin-top: -20px;
+}
+
+.GS{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  position: fixed;
+  left: 77%;
+  top: 20px;
+}
+
+.GS:hover{
+  border-bottom: 3px solid #fff;
+}
+
+
+.TK{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  position: fixed;
+  left: 85%;
+  top: 20px;
+}
+
+.TK:hover{
+  border-bottom: 3px solid #fff;
+}
+
+.footer{
+  background: #00838f;
+  opacity: 0.7;
+  border: 10px solid #00838f;
+  color: white;
+  position: fixed;
+  top: 91%;
+  width: 100%;
+  height: 40px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  opacity: 0.9;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.btn{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translate(70%, 320px);
+}
+
+.btn{
+  position: relative;
+  display:inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: #fff;
+  left: 100px;
+  font-size: 2rem;
+  border-radius: .125em;
+  background-color: inherit;
+}
+
+.btn::after{
+  content:'';
+  position: absolute;
+  z-index: -1;
+  top: -.125em;
+  left: -.125em;
+  width: calc(100% + .25em);
+  height: calc(100% + .25em);
+  border-radius: .25em;
+  background-image: linear-gradient(45deg,#f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-size: 200%;
+  animation: animateborder 3s ease infinite paused;
+}
+
+.btn:hover::after{
+  animation-play-state: running;
+}
+
+@keyframes animateborder {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+
+@media screen and (min-width:1920px){
+.footer{
+   top:94%;
+}
+.GS{
+  left: 77%;
+}
+
+.TK{
+  left: 85%;
+}
+.nazvan{
+  margin-left: 65px;
+  margin-top: -20px;
+}
+}

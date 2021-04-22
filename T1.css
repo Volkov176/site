@@ -1,0 +1,173 @@
+
+.header{
+  background: #006064;
+  border: 10px solid #006064;
+  color: white;
+  position: relative;
+  width: 100%;
+  top: -10px;
+  height: 50px;
+}
+
+.header-link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header-link:hover{
+  border-bottom: 3px solid #fff;
+}
+
+.np1{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c1{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np2{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c2{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np3{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c3{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np4{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c4{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np5{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c5{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np6{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c6{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np7{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c7{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np8{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c8{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np9{
+  border: 2px solid blue;
+width: 100px;
+}
+
+.c9{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+.np10{
+  border: 2px solid blue;
+  width: 100px;
+  position: relative;
+  top: -15px;
+}
+
+.c10{
+  border: 2px solid blue;
+  width: 700px;
+  position: relative;
+  left: 120px;
+  top: -54px;
+}
+
+
+.btn{
+  background: blue;
+  opacity: 1;
+  border: 5px solid #0020C2;
+  border-radius: 15px;
+  position: relative;
+  top: 20px;
+  height: 70px;
+  width: 170px;
+  left:500px;
+  text-align: center;
+
+}
+
+.btn-line{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
